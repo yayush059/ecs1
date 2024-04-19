@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Project</h1>
+        <div class="project">
+            <h2>VOICE CONTROL BASED IOT
+                HOME AUTOMATION SYSTEM
+                USING GOOGLE ASSISTANT AND
+                RASPBERRY PI</h2>
+            <button onclick="openPDF('ENGINEERING CLINICS.pdf')">View Project PDF-1</button>
+            <!-- Add more buttons for other PDFs similarly -->
+        </div>
+        <div class="project">
+            <br>
+            <button onclick="openPDF('SMART HOME.pdf')">View Project PDF-2</button>
+            <!-- Add more buttons for other PDFs similarly -->
+        </div>
+        <div id="pdfModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <iframe id="pdfFrame" src="" style="width:100%; height:100%;"></iframe>
+            </div>
+        </div>
+        <h2>Project Video</h2>
+        <iframe src="https://drive.google.com/file/d/1CfzbNOXGuhzec43ZUltdXsxvhNVine54/view?usp=sharing" width="640" height="480"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
